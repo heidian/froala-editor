@@ -1,3 +1,7 @@
+如果隐藏了 unlicensed 提示, 在触发10次 contentChanged 以后, Froala 会自我销毁流, 变成一个 textarea
+去掉这段逻辑的方法是搜索 !0 === f.ul，把!0 === f.ul改为!0 !== f.ul
+
+
 # [Froala Editor V3](https://www.froala.com/wysiwyg-editor)
 
 [![Build Status](https://api.travis-ci.com/froala-labs/froala-editor-js-2.svg?token=RmiyW7AecDyQ8ja7VMDj&branch=master)](https://travis-ci.com/froala-labs/froala-editor-js-2)
